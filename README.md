@@ -1,28 +1,23 @@
 Conversor de Moedas
-Este projeto é um Conversor de Moedas desenvolvido em Java. O programa permite que os usuários convertam valores entre diferentes moedas utilizando taxas de câmbio atualizadas em tempo real de uma API de troca de moedas.
+Este projeto é um Conversor de Moedas desenvolvido como parte de um challenge da Alura Latam em parceria com a Oracle Next Education. Ele permite realizar conversões entre diferentes moedas, utilizando taxas de câmbio atualizadas por meio de uma API.
 
-Funcionalidades
-Seleção da moeda de origem e destino entre várias opções disponíveis.
+- Funcionalidades
+- Conversão entre as seguintes moedas:
 
-Conversão de valores conforme as taxas de câmbio atuais obtidas de uma API.
+🇺🇸 Dólar Americano (USD)
+🇦🇷 Peso Argentino (ARS)
+🇧🇷 Real Brasileiro (BRL)
+🇨🇴 Peso Colombiano (COP)
+ Suporte para conversão de Dólar para outras moedas e vice-versa.
 
-Validação das entradas do usuário para garantir que as seleções e valores inseridos sejam válidos.
+ Exibição dos resultados com até 14 casas decimais.
 
-Tecnologias Utilizadas
-Java: Linguagem de programação principal.
+ Interface interativa para a escolha das opções de conversão através de um menu.
 
-API de ExchangeRate: Fonte das taxas de câmbio.
+ Tecnologias Utilizadas
+☕ Java
+📦 Gson para manipulação de JSON
+🌐 ExchangeRate-API para obtenção das taxas de câmbio em tempo real
 
-Gson: Biblioteca utilizada para o processamento de JSON.
-
-Como Executar
-Clone este repositório: git clone https://github.com/seu-usuario/conversor-de-moedas.git
-
-Navegue até o diretório do projeto: cd conversor-de-moedas
-
-Compile o projeto: javac Principal.java
-
-Execute o programa: java Principal
-
-Contribuições
-Contribuições são bem-vindas. Por favor, abra um issue ou envie um pull request para qualquer melhoria ou correção.
+API Utilizada
+A API utilizada para obter as taxas de câmbio é a ExchangeRate-API, que fornece dados atualizados para conversões monetárias.
